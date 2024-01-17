@@ -1,0 +1,21 @@
+.window {
+  position: fixed;
+  top: 50px;
+  left: 50px;
+
+  .title-bar {
+
+    .title-bar-text {
+      flex: 1;
+      cursor: move;
+      user-select: none;
+    }
+
+    .title-bar-controls {
+
+      button[aria-label=Close] {
+        cursor: pointer;
+      }
+    }
+  }
+}
