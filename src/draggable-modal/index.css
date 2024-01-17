@@ -19,3 +19,17 @@
     }
   }
 }
+
+.draggable-modal {
+  animation: .15s ease-in show-up;
+}
+
+@keyframes show-up {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
